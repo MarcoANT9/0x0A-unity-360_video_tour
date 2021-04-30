@@ -231,8 +231,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11983197}
-  m_LocalRotation: {x: -0.6405736, y: 0.6405736, z: 0.29944187, w: -0.29944187}
-  m_LocalPosition: {x: -0.3234, y: 0.133, z: -0.3254}
+  m_LocalRotation: {x: -0.3535534, y: 0.3535534, z: 0.61237246, w: -0.61237246}
+  m_LocalPosition: {x: -0.3388766, y: 0.133, z: -0.29855287}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 1787288723}
@@ -240,7 +240,7 @@ Transform:
   - {fileID: 481986251}
   m_Father: {fileID: 1756024075}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 230.108, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 300, z: -90}
 --- !u!64 &11983199
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -775,6 +775,7 @@ GameObject:
   - component: {fileID: 339840510}
   - component: {fileID: 339840509}
   - component: {fileID: 339840508}
+  - component: {fileID: 339840512}
   m_Layer: 0
   m_Name: RealButton
   m_TagString: Untagged
@@ -898,6 +899,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339840506}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &339840512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339840506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137e0afa6524b1c40b062e8790c2259f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factor: 1.1
 --- !u!1 &457600911
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,7 +939,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457600911}
   m_LocalRotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 0.0756, y: 0, z: -0.4749}
+  m_LocalPosition: {x: 0.0977, y: 0, z: -0.46}
   m_LocalScale: {x: 0.015, y: 0.015, z: 0.02}
   m_Children:
   - {fileID: 625699188}
@@ -1010,6 +1024,7 @@ GameObject:
   - component: {fileID: 481986254}
   - component: {fileID: 481986253}
   - component: {fileID: 481986252}
+  - component: {fileID: 481986256}
   m_Layer: 0
   m_Name: RealButton
   m_TagString: Untagged
@@ -1024,13 +1039,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481986250}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0.99780995, y: 0.00000006705522, z: -0.00000017881392, w: 0.06614768}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5.944949, y: 0.7499999, z: 6}
   m_Children: []
   m_Father: {fileID: 11983198}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 172.414, y: 0, z: 0}
 --- !u!114 &481986252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1133,6 +1148,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481986250}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &481986256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481986250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137e0afa6524b1c40b062e8790c2259f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factor: 1.1
 --- !u!1 &484883007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,6 +1454,7 @@ GameObject:
   - component: {fileID: 575493077}
   - component: {fileID: 575493076}
   - component: {fileID: 575493075}
+  - component: {fileID: 575493079}
   m_Layer: 0
   m_Name: RealButton
   m_TagString: Untagged
@@ -1549,6 +1578,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 575493073}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &575493079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575493073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137e0afa6524b1c40b062e8790c2259f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factor: 1.1
 --- !u!1 &607582602
 GameObject:
   m_ObjectHideFlags: 0
@@ -1801,13 +1843,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691692238}
-  m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -0, y: -0, z: 0}
+  m_LocalRotation: {x: 0.68857384, y: -0.68857384, z: 0.16082932, w: 0.16082932}
+  m_LocalPosition: {x: 0, y: 4.99, z: 3.14}
   m_LocalScale: {x: 6, y: 6, z: 1}
   m_Children: []
   m_Father: {fileID: 120610547}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 153.706, y: 0, z: 90}
 --- !u!212 &691692240
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2164,7 +2206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844734901}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0.434}
+  m_LocalPosition: {x: -0.1588, y: 0.0145, z: 0.4375}
   m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
   m_Children:
   - {fileID: 961467906}
@@ -2783,6 +2825,7 @@ GameObject:
   - component: {fileID: 1261979044}
   - component: {fileID: 1261979043}
   - component: {fileID: 1261979042}
+  - component: {fileID: 1261979046}
   m_Layer: 0
   m_Name: RealButton
   m_TagString: Untagged
@@ -2906,6 +2949,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261979040}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1261979046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261979040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137e0afa6524b1c40b062e8790c2259f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factor: 1.1
 --- !u!1 &1263400558
 GameObject:
   m_ObjectHideFlags: 0
@@ -2919,6 +2975,7 @@ GameObject:
   - component: {fileID: 1263400562}
   - component: {fileID: 1263400561}
   - component: {fileID: 1263400560}
+  - component: {fileID: 1263400564}
   m_Layer: 0
   m_Name: RealButton
   m_TagString: Untagged
@@ -3042,6 +3099,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263400558}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1263400564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263400558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137e0afa6524b1c40b062e8790c2259f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factor: 1.1
 --- !u!1 &1284897817
 GameObject:
   m_ObjectHideFlags: 0
@@ -3152,6 +3222,7 @@ GameObject:
   - component: {fileID: 1393903623}
   - component: {fileID: 1393903622}
   - component: {fileID: 1393903621}
+  - component: {fileID: 1393903625}
   m_Layer: 0
   m_Name: RealButton
   m_TagString: Untagged
@@ -3275,6 +3346,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393903619}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1393903625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393903619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137e0afa6524b1c40b062e8790c2259f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factor: 1.1
 --- !u!1 &1463877318
 GameObject:
   m_ObjectHideFlags: 0
@@ -3698,7 +3782,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562806673}
   m_LocalRotation: {x: -0.023404133, y: 0.023404133, z: -0.7067194, w: 0.7067194}
-  m_LocalPosition: {x: -0.4437, y: -0.1386, z: -0.0405}
+  m_LocalPosition: {x: -0.428, y: -0.0948, z: -0.099}
   m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
   m_Children:
   - {fileID: 194736948}
@@ -4428,7 +4512,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!328 &1756024071
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -4652,7 +4736,7 @@ GameObject:
   - component: {fileID: 1787288725}
   - component: {fileID: 1787288724}
   m_Layer: 0
-  m_Name: Button
+  m_Name: ButtonImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4665,13 +4749,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787288722}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0.4645256, y: -0.46452555, z: 0.5331194, w: 0.5331189}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 11983198}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 82.134, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -4790,7 +4874,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!135 &1822977994
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4945,6 +5029,7 @@ GameObject:
   - component: {fileID: 1871025798}
   - component: {fileID: 1871025797}
   - component: {fileID: 1871025796}
+  - component: {fileID: 1871025800}
   m_Layer: 0
   m_Name: RealButton
   m_TagString: Untagged
@@ -5068,6 +5153,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871025794}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1871025800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871025794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137e0afa6524b1c40b062e8790c2259f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factor: 1.1
 --- !u!1 &1994291833
 GameObject:
   m_ObjectHideFlags: 0
@@ -5081,6 +5179,7 @@ GameObject:
   - component: {fileID: 1994291837}
   - component: {fileID: 1994291836}
   - component: {fileID: 1994291835}
+  - component: {fileID: 1994291839}
   m_Layer: 0
   m_Name: RealButton
   m_TagString: Untagged
@@ -5204,6 +5303,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994291833}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1994291839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994291833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137e0afa6524b1c40b062e8790c2259f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factor: 1.1
 --- !u!1 &2012732081
 GameObject:
   m_ObjectHideFlags: 0

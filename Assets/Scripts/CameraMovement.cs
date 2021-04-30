@@ -5,6 +5,8 @@ public class CameraMovement : MonoBehaviour
     public float sensitivity = 10f;
     public float maxYAngle = 80f;
     private Vector2 currentRotation;
+
+
     void Update()
     {
         currentRotation.x += Input.GetAxis("Mouse X") * sensitivity;
